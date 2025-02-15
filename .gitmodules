@@ -1,0 +1,3 @@
+[submodule "Rank02/pipex/libft"]
+	path = Rank02/pipex/libft
+	url = https://github.com/cacapon/libft.git
