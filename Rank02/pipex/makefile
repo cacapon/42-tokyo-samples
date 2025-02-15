@@ -14,5 +14,6 @@ $(SRC_DIR)/$(DEL_FILE):
 	echo "this is delfile" > $@
 
 clean:
-	rm -rf *.out
-	rm $(SRC_DIR)/$(DEL_FILE)
+	rm -f *.out
+	
+	rm -f $(SRC_DIR)/$(DEL_FILE)
